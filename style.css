@@ -142,11 +142,12 @@ a{
 /* ===================== Recipie Section End ======================== */
 /* ===================== Review Section Start ======================= */
 .our-review-section {
-	background-image: url(./images/shapes/Frame\ 57.jpg);
-	padding-top: 50px;
-	text-align: center;
-	background-size: cover;
-	padding-bottom: 99px;
+    background-image: url(./images/shapes/Frame\ 57.jpg);
+    padding-top: 50px;
+    text-align: center;
+    background-size: cover;
+    padding-bottom: 99px;
+    margin-bottom: 100px;
 }
 .review-title {
     color: #676767;
@@ -191,3 +192,48 @@ a{
     padding-bottom: 25px;
 }
 /* =========================== Review Section End ============================ */
+/* =========================== Status Section Start ========================== */
+.status-box {
+    display: flex;
+    width: 88%;
+    box-shadow: 8px 5px 32px 8px #ddd;
+    margin-bottom: 45px;
+    margin-left: 7%;
+    padding: 60px 22px 100px 25px;
+    border-radius: 25px;
+    padding-bottom: 66px;
+}
+.num-box{
+    width: 40%;
+    margin-left: 125px;
+}
+.num-box h2{
+    font-size: 40px;
+}
+.mb{
+    margin-bottom: 12px;
+}
+h5{
+    opacity: 0.5;
+}
+.million-box{
+    width: 40%;
+    margin-left: 125px;
+}
+.million-box h2{
+    font-size: 40px;
+}
+.thousand-box {
+    width: 40%;
+    margin-left: 94px;
+}
+.thousand-box h2{
+    font-size: 40px;
+}
+
+
+
+
+
+
+/* =========================== Status Section End ============================ */
