@@ -96,12 +96,49 @@ a{
     line-height: 26px;
     margin-right: 20px;
 }
-.middle-text-container a{
-    margin-bottom: 150px;
-}
-
-
-
 
 
 /* ===================== Middle section End =========================== */
+/* ===================== Recipie Section Start ======================== */
+
+.recipie-info{
+    text-align: center;
+}
+.recipie-info h2{
+    margin-bottom: 20px;
+}
+.recipie-info p {
+    margin: 0 325px;
+    width: 738px;
+    height: 229px;
+    text-align: center;
+    line-height: 28px;
+}
+.recipie-item {
+    display: flex;
+    padding: 18px;
+    margin: 0px;
+    width: 102%;
+}
+.recipie-item img{
+    width: 100%;
+}
+
+.item1 {
+    width: 58%;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 2%;
+    margin-right: 4%;
+    margin-bottom: 91px;
+    padding: 19px;
+    border-radius: 32px;
+    height: 480px;
+}
+ .item1 h2{
+     margin-top: 20px;
+     margin-bottom: 15px;
+ }
+.item1 img{
+    border-radius: 15px;
+}
+/* ===================== Recipie Section End ======================== */
