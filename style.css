@@ -47,7 +47,7 @@ a{
 }
 .img-container{
     width: 50%;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 .img-container img{
     width:100% ;
@@ -58,39 +58,43 @@ a{
 
 .middle-section{
     background-image: url(.//images/shapes/7.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     background-position: left;
     margin-top: 50px;
 }
 .middle-container{
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 
 }
 .middle-img-container{
+    width: 50%;
     margin-left: 40px;
 }
 .middle-img-container img{
     width: 48% ;
     height: auto;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 40px;
 }
-.middle-text-container{
-    width: 80%;
-    margin-left: 10px;
+.middle-text-container {
+    width: 50%;
+    margin-left: -49px;
     margin-top: 80px;
-}.middle-text-container h2{
+    text-align: justify;
+}
+.middle-text-container h2{
     margin-top: 62px;
     font-size: 40px;
-    opacity: 0.8;
 }
-.middle-text-container p{
-    opacity: 0.4;
+.middle-text-container p {
+    width: 448px;
+    height: 185px;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 35px;
     font-size: 15px;
-    line-height: 30px;
+    line-height: 26px;
+    margin-right: 20px;
 }
 .middle-text-container a{
     margin-bottom: 150px;
