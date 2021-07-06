@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ========================Top section start=============== */
+
+.top-banner
+.top-container{
+    display: flex;
+    margin-top: 80px;
+}
+.text-container{
+    width: 650px;
+    margin-left: 60px;
+    margin-top: 190px;
+    height: 234px;
+   
+}
+.text-container h2{
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 67px;
+    opacity: 0.8;
+}
+span{
+    color: rgba(251, 162, 79, 1);
+}
+p{
+    opacity: 0.4;
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(to right, lightsalmon, rgb(230, 48, 16));
+    padding:20px 30px 20px 30px;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 3px 20px  lightcoral;
+}
+.img-container{
+    width: 50%;
+    margin-bottom: 200px;
+}
+/*===================== Top section end  ============================= */
+/* ===================== Middle section start ==========================*/
+
+/* ===================== Middle section End =========================== */
