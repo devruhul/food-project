@@ -9,7 +9,7 @@ body{
 
 /* ========================Top section start=============== */
 
-.top-banner
+
 .top-container{
     display: flex;
     margin-top: 80px;
@@ -17,7 +17,7 @@ body{
 .text-container {
     width: 668px;
     margin-left: 78px;
-    margin-top: 193px;
+    margin-top: 160px;
     height: 234px;
 }
 .text-container h2 {
@@ -55,7 +55,7 @@ a{
 /*===================== Top section end  ============================= */
 /* ===================== Middle section start ==========================*/
 
-.middle-section{
+#middle-section{
     background-image: url(.//images/shapes/7.png);
     background-repeat: no-repeat; 
     background-position: left;
@@ -141,7 +141,7 @@ a{
 }
 /* ===================== Recipie Section End ======================== */
 /* ===================== Review Section Start ======================= */
-.our-review-section {
+#our-review-section {
     background-image: url(./images/shapes/Frame\ 57.jpg);
     padding-top: 50px;
     text-align: center;
