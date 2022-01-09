@@ -12,13 +12,13 @@ body{
 
 .top-container{
     display: flex;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 .text-container {
-    width: 668px;
+    width: 500px;
     margin-left: 78px;
-    margin-top: 160px;
-    height: 234px;
+    margin-top: 50px;
+    
 }
 .text-container h2 {
     font-weight: 800;
@@ -53,6 +53,7 @@ a{
     height: auto;
 }
 /*===================== Top section end  ============================= */
+
 /* ===================== Middle section start ==========================*/
 
 #middle-section{
@@ -78,7 +79,7 @@ a{
 .middle-text-container {
     width: 50%;
     margin-left: -49px;
-    margin-top: 80px;
+    margin-top: 10px;
     text-align: justify;
 }
 .middle-text-container h2{
@@ -97,6 +98,7 @@ a{
 
 
 /* ===================== Middle section End =========================== */
+
 /* ===================== Recipie Section Start ======================== */
 
 .recipie-info{
@@ -140,6 +142,7 @@ a{
     border-radius: 15px;
 }
 /* ===================== Recipie Section End ======================== */
+
 /* ===================== Review Section Start ======================= */
 #our-review-section {
     background-image: url(./images/shapes/Frame\ 57.jpg);
@@ -191,8 +194,9 @@ a{
     text-align: center;
     padding-bottom: 25px;
 }
-/* =========================== Review Section End ============================ */
-/* =========================== Status Section Start ========================== */
+/* =========================== Review Section End =========================== */
+
+/* =========================== Status Section Start ========================= */
 .status-box {
     display: flex;
     width: 88%;
@@ -231,13 +235,9 @@ h5{
     font-size: 40px;
 }
 
+/* =========================== Status Section End =========================== */
 
-
-
-
-
-/* =========================== Status Section End ============================ */
-/* ============================ Contact Form Start ============================ */
+/* ============================ Contact Form Start ========================== */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -247,19 +247,6 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
   }
   
   .container {
