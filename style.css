@@ -5,14 +5,31 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    overflow-x:  hidden;
 }
 
+/* ======================== Common Style ================== */
+
+span{
+    color: rgba(251, 162, 79, 1);
+}
+p{
+    opacity: 0.4;
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(to right, lightsalmon, rgb(230, 48, 16));
+    padding:20px 30px 20px 30px;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 3px 20px  lightcoral;
+}
 /* ========================Top section start=============== */
 
 
 .top-container{
     display: flex;
-    /* margin-top: 80px; */
 }
 .text-container {
     width: 500px;
@@ -29,21 +46,6 @@ body{
 .text-container p{
     font-size: 20px;
 }
-span{
-    color: rgba(251, 162, 79, 1);
-}
-p{
-    opacity: 0.4;
-    margin-bottom: 50px;
-}
-a{
-    text-decoration: none;
-    background-image: linear-gradient(to right, lightsalmon, rgb(230, 48, 16));
-    padding:20px 30px 20px 30px;
-    color: white;
-    border-radius: 30px;
-    box-shadow: 5px 3px 20px  lightcoral;
-}
 .img-container{
     width: 50%;
     margin-bottom: 40px;
@@ -52,6 +54,9 @@ a{
     width:100% ;
     height: auto;
 }
+
+/* =================== Media query for top container ================= */
+
 /*===================== Top section end  ============================= */
 
 /* ===================== Middle section start ==========================*/
@@ -61,6 +66,7 @@ a{
     background-repeat: no-repeat; 
     background-position: left;
     margin-top: 50px;
+    
 }
 .middle-container {
     display: flex;
